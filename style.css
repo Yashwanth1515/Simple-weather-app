@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(234, 16, 234);
+}
+.wea-container{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding-bottom: 50px;
+}
+.wea-container .title{
+    padding: 10px 0;
+    font-size: 20px;
+    text-align: center;
+}
+.wea-container .input{
+    text-align: center;
+    margin: 10px 0;
+}
+.wea-container #input-loc{
+    text-align: left;
+    outline: none;
+    height: 30px;
+    width: 70%;
+}
+.wea-container #btn{
+    width: 59px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    border-radius: 4px;
+    cursor: pointer;
+}
+img{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.temp{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+#weather-disc{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#city-name{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+#country{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
